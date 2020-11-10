@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CountryTimeV2</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/aa25b88852.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="wid" class="nav">
+
        <img id="logo" src="https://cdn.worldvectorlogo.com/logos/country-time-2.svg" alt="">
         <ul>
             <li>About</li>
@@ -22,7 +23,7 @@
         <h1>Not just a drink It's an Expirience</h1>
             <p> Simply dummy text of the printing and 
                 typesetting industry.  standard dummy 
-                text ever since the 1500s Simply dummy text of the printing and 
+               <br> text ever since the 1500s Simply dummy text of the printing and 
                 typesetting industry.
                 </p>    
                  <button id="find">Apply</button>         
@@ -63,6 +64,7 @@
         <p> Sapiente in dolores asperiores harum, Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
              <a id="more" href="">Read More ></a> </div>
    </div>
+  
 <div class="products">
    <div class="article">
        <img src="https://d36rz30b5p7lsd.cloudfront.net/gourmetcat/product/imagename/img/products-pink-lemonade.png" alt="">
@@ -97,7 +99,7 @@
  <p>Lorem ipsum dolor sit amet consec</p>
  <button id="find">Buy</button>  
 </div> 
-<div class="article">
+<div lazy class="article">
     <img src="https://d36rz30b5p7lsd.cloudfront.net/gourmetcat/product/imagename/img/products-black-cherry-lemonade.png" alt="">
  <h4>Black Cherry</h4>
  <span class="fa fa-star checked"></span>
@@ -109,22 +111,93 @@
  <button id="find">Buy</button>  
 </div> 
 </div>
-<h1 id="title">Download Our App</h1>
-<div class="app">
-  
-    <img  src="Group 2.jpg" alt="">
- 
-        <h3>Helping You To Find Us</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nemo quidem, explicabo veritatis excepturi eaque, suscipit beatae voluptate officia dicta impedit! Voluptate maxime culpa odio quo saepe, eos illum maiores!</p>
-   
-</div>
+<div class="slideshow-container">
+
+    <div class="mySlides">
+      <q>'I love how the quality is consistant with Country Time'</q>
+      <p class="author">- Jean Miller</p>
+    </div>
+    
+    <div class="mySlides">
+      <q>'Simple, Tasty, Healthy, those are the words that describe this drink. '</q>
+      <p class="author">- Ernest Maya</p>
+    </div>
+    
+    <div class="mySlides">
+      <q>'Country Time is my Childhood, i will give this to my children too'</q>
+      <p class="author">- Thomas Cavani</p>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    
+    <div class="dot-container">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
 <section class="legal">
     <div class="content">
         <p>LOCATE COUNTRY TIME PRODUCTS</p>
         <button id="find">Product Locator</button>   
     </div>
   </section>
+    </div>
+  </div>
+  <div class="steps2"> 
+ <div class="app"><img  src="Rectangle 29.png" alt=""> </div>
+ <div id="how2">
+    <h1>Our App IS HERE</h1>
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+     <button id="find">Download</button>
+    </div>
+ </div>
+ 
 
+    <div class="steps"> 
+       <div id="how"> <h2>Apply for our Newsletter</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+        <input type="text"><button id="find">Apply</button>
+    </div>
+    </div>
+
+    <div class="footer">
+      <div class="block">
+        <div class="soc">
+          <p>Company</p>
+          <a href="">About</a>
+          <a href="">Help</a>
+          <a href="">Blog</a>
+        </div>
+        <div class="soc" >
+          <p>Follow Us</p>
+          <a href="">Instagram</a>
+          <a href="">Facebook</a>
+          <a href="">Twitter</a>
+        </div>
+        <div class="soc" >
+          <p>Legal</p>
+          <a href="">Privacy</a>
+          <a href="">Copyright</a>
+          <a href="">Terms</a>
+        </div>
+        <div class="soc" >
+            <p>Legal</p>
+            <a href="">Privacy</a>
+            <a href="">Copyright</a>
+            <a href="">Terms</a>
+          </div>
+          <div class="soc" >
+            <p>Legal</p>
+            <a href="">Privacy</a>
+            <a href="">Copyright</a>
+            <a href="">Terms</a>
+          </div>
+      </div>
+<script src="app.js"></script>
    
 </body>
 </html>
