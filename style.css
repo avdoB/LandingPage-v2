@@ -11,7 +11,8 @@ body{
     flex-direction: row;
    justify-content: space-between;
    flex-wrap: wrap;
-   margin: 1%;
+   padding: 1%;
+  
  
 
 }
@@ -42,7 +43,7 @@ line-height:2em;
 }
 #logo{
     height: auto;
-    width: 160px;
+    width: 140px;
     
 }
 
@@ -65,12 +66,13 @@ li{
     background-color: #e95d00;  
 }
 
+  .home{
+    padding: 3%;
   }
 
 
   .home p{
 text-align: left;
-margin-right: 10%;
   }
 
   .home #find{
@@ -80,22 +82,15 @@ margin-right: 10%;
     font-family: 'Open Sans', sans-serif;
     font-size: 50px;
     color: rgb(27, 27, 27);
-    margin-top: 15%;
-    margin-bottom: 10%;
+  
   }
-#wid{
-    width:90%;
-    max-width: 1200px;
-    margin: auto;
-   
- }
+
  
   .flex{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    
-
+    justify-content: space-evenly;
+margin: 4%;
   }
   @media only screen and (max-width: 600px) {
     .flex {
@@ -178,8 +173,8 @@ font-size:18px;
   }
 
 .image{
-    margin-top: 10%;
-    margin-bottom: 10%;
+    
+    width: 100%;
 }
 .kl{
  
@@ -261,10 +256,12 @@ font-size:18px;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1115px) {
   .flex {
     display: block;
   }
+  
+
   .home h1, .home p{
       text-align: center;
   }
@@ -298,6 +295,10 @@ font-size:18px;
   ul #find{
     display: none;
   }
+  .flex2{
+    flex-wrap: wrap;
+  }
+  
 }
 
 .slideshow-container {
@@ -413,19 +414,19 @@ q {
   display: flex;
   justify-content: center;
 }
-.steps2 #find{
-  background-color: #ffffff;
-  color: #e95d00;
-}
+
 #input{
   text-align: center;
+
 }
+
 input{
   width: 50%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
   border: thin;
+  border-color: ;
 }
 #how h2, #how h2{
   color: #444444;
@@ -441,6 +442,7 @@ input{
   color: rgb(255, 255, 255);
   text-align: center;
 }
+
 .block{
   display: flex;
   flex-direction: row;
@@ -456,5 +458,23 @@ input{
  text-decoration: none;
  color: rgb(99, 99, 99);  
  font-weight: lighter;
+ text-decoration-line: underline;s
 }
 
+#nature{
+  text-align: left;
+  padding: 5%;
+}
+.flex2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+margin: 4%;
+background-color: rgb(247, 255, 232);
+color: rgb(78, 78, 78);
+
+}
+.images{
+  width: 100%;
+  height: auto;
+}
