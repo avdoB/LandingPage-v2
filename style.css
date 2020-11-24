@@ -11,15 +11,11 @@ body{
     flex-direction: row;
    justify-content: space-between;
    flex-wrap: wrap;
-   padding: 1%;
-  
- 
 
 }
 .nav img,
 .nav ul{
-  margin-left: 2%;
-  margin-right: 2%;
+margin: 3%;
 
 }
 .fa-bars{
@@ -439,8 +435,12 @@ input{
   width: 100%;
   padding-top: 20px;
   padding-bottom: 30px;
-  color: rgb(255, 255, 255);
   text-align: center;
+}
+.footer p{
+  font-weight: 700;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
 }
 
 .block{
@@ -449,18 +449,19 @@ input{
   justify-content: center;
   flex-wrap: wrap;
 }
-.soc{
-  margin-top: 30px;
-}
+
 .soc a {
- margin: 15px 40px 15px 40px;
- display: block;
- text-align:left;
+  margin: 15px 40px 15px 40px;
+  display: block;
  text-decoration: none;
- color: rgb(99, 99, 99);  
- font-weight: lighter;
- text-decoration-line: underline;s
+ color: rgb(255, 255, 255);  
+ text-align: center;
+
 }
+.soc a:hover{
+text-decoration-line: underline;
+}
+
 
 #nature{
   text-align: left;
