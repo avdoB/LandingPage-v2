@@ -27,6 +27,7 @@ margin: 3%;
   display: none;
   cursor: pointer;
   font-size: 30px;
+  margin: 2%;
 
 }
 .burger:focus{
@@ -63,7 +64,7 @@ li{
 }
 
   .home{
-    padding: 3%;
+    padding: 4%;
   }
 
 
@@ -86,7 +87,7 @@ text-align: left;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-margin: 4%;
+margin: 1%;
   }
   @media only screen and (max-width: 600px) {
     .flex {
@@ -116,7 +117,7 @@ margin: 4%;
       display: flex; 
 justify-content:center;
       flex-wrap: wrap;
- margin-top: 3%;
+ margin-top: 2%;
  text-align: center;
 
   }
